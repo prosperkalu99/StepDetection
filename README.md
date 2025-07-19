@@ -28,7 +28,7 @@ Built with:
 ```agsl
 └── di/
 └── AppModule.kt            # Koin DI setup
-└── sensor/
+└── util/
 └── StepSensorManager.kt    # Sensor selection + fallback logic
 └── viewmodel/
 └── StepMeasureViewModel.kt # Step count, area, perimeter calculation
@@ -61,36 +61,24 @@ Built with:
 git clone https://github.com/your-repo/android-step-detection-fallback.git
 ```
 ### 2. Open in Android Studio
-    •	Recommended: Android Studio Hedgehog or newer.
+- Recommended: Android Studio Hedgehog or newer.
 
 ### 3. Install & Run
-    •	Connect a real Android device (recommended for sensors).
-    •	Click Run ▶️ in Android Studio.
+-	Connect a real Android device (recommended for sensors).
+-	Click Run ▶️ in Android Studio.
 
 ---
 
-✅ Permissions
-•	No special permissions required
-•	All sensors used (Step Detector, Step Counter, Accelerometer) do not require runtime permissions.
-•	Works offline, suitable for outdoor and indoor step-based measurements.
+## ✅ Permissions
+-	No special permissions required
+-	All sensors used (Step Detector, Step Counter, Accelerometer) do not require runtime permissions.
+-	Works offline, suitable for outdoor and indoor step-based measurements.
 
-⸻
+---
 
-🎁 Potential Improvements (Optional Ideas)
-•	📍 Dynamic direction tracking via TYPE_ROTATION_VECTOR
-•	📝 Adjustable stride length calibration UI
-•	🖼️ Canvas path visualization
-•	💾 Export step or area data to file
-•	🔋 Battery optimization (using SENSOR_DELAY_NORMAL or foreground services)
-
-⸻
-
-📄 License
-
-Licensed under the MIT License.
-
-⸻
-
-✨ Author
-
-Built by [Prosper] to demonstrate real-world step-based area measurement using modern Android development practices.
+## 🎁 Potential Improvements (Optional Ideas) 
+-	📍 Dynamic direction tracking via TYPE_ROTATION_VECTOR
+-	📝 Adjustable stride length calibration UI
+-	🖼️ Canvas path visualization
+- 	💾 Export step or area data to file
+-	🔋 Battery optimization (using SENSOR_DELAY_NORMAL or foreground services)
